@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Partners | Financial & Strategic Advisory</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#002E5D',
+                        brandGold: '#A68966',
+                        darkGray: '#1A1A1A'
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .lang-en { display: none; }
+        .active-lang { display: block !important; }
+        .header-line { border-bottom: 1px solid #e5e7eb; }
+        .hero-bg { background-color: #f9fafb; }
+    </style>
+</head>
+<body class="text-gray-800 antialiased">
+
+    <nav class="sticky top-0 bg-white z-50 shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold text-brandBlue tracking-tighter">PRIME PARTNERS</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
+                <a href="#services" class="hover:text-brandBlue transition">Services</a>
+                <a href="#about" class="hover:text-brandBlue transition">About</a>
+                <a href="#team" class="hover:text-brandBlue transition">Team</a>
+                <a href="#contact" class="hover:text-brandBlue transition">Contact</a>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <button onclick="setLanguage('pt')" class="text-xs font-bold hover:text-brandBlue">PT</button>
+                <span class="text-gray-300">|</span>
+                <button onclick="setLanguage('en')" class="text-xs font-bold hover:text-brandBlue">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white border-b py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end border-b pb-8 border-gray-200">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-serif text-brandBlue mb-2">Prime Partners</h1>
+                    <p class="text-xl text-gray-500 tracking-widest uppercase font-light">Financial & Strategic Advisory</p>
+                </div>
+                <div class="mt-6 md:mt-0 text-right font-light text-sm text-gray-600 leading-relaxed">
+                    <p>Av. 24 de Julho, n° 42</p>
+                    <p>Maputo, Moçambique</p>
+                    <p class="font-semibold text-brandBlue">+258 86 3026749</p>
+                    <p>info@prime-partners.net</p>
+                </div>
+            </div>
+
+            <div class="mt-16 max-w-3xl">
+                <div class="lang-pt active-lang">
+                    <h2 class="text-5xl font-serif mb-6 leading-tight">Inteligência Financeira para o Crescimento.</h2>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">Apoiamos empresas no fortalecimento da sua estrutura financeira, no acesso a capital e na melhoria da sua performance empresarial.</p>
+                    <a href="#contact" class="bg-brandBlue text-white px-8 py-4 inline-block hover:bg-opacity-90 transition font-semibold">Agendar Consultoria</a>
+                </div>
+                <div class="lang-en">
+                    <h2 class="text-5xl font-serif mb-6 leading-tight">Financial Intelligence for Growth.</h2>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">We help companies strengthen their financial foundations, access capital, and improve overall business performance.</p>
+                    <a href="#contact" class="bg-brandBlue text-white px-8 py-4 inline-block hover:bg-opacity-90 transition font-semibold">Schedule Advisory</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-brandBlue font-bold tracking-widest uppercase text-xs">Solutions</span>
+                <h3 class="text-3xl font-serif mt-2 lang-pt active-lang">Nossas Áreas de Atuação</h3>
+                <h3 class="text-3xl font-serif mt-2 lang-en">Our Core Solutions</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="bg-white p-8 border-t-4 border-brandBlue shadow-sm">
+                    <h4 class="font-bold text-lg mb-4 lang-pt active-lang">1. Capital & Financing Advisory</h4>
+                    <h4 class="font-bold text-lg mb-4 lang-en">1. Capital & Financing Advisory</h4>
+                    
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6 lang-pt active-lang">
+                        <li>• Estruturação de Dívida (Loans)</li>
+                        <li>• Levantamento de Capital (Equity)</li>
+                        <li>• Reestruturação de Passivos</li>
+                        <li>• Business Plans & Memorandos</li>
+                    </ul>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6 lang-en">
+                        <li>• Debt Financing Structuring</li>
+                        <li>• Equity Capital Raising</li>
+                        <li>• Debt Restructuring</li>
+                        <li>• Investment Memorandums</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100 italic text-xs text-brandBlue font-semibold">
+                        <span class="lang-pt active-lang">IMPACTO: Acesso a capital e redução de custos.</span>
+                        <span class="lang-en">IMPACT: Access to capital and lower costs.</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 border-t-4 border-brandBlue shadow-sm">
+                    <h4 class="font-bold text-lg mb-4 lang-pt active-lang">2. Recuperação & Optimização</h4>
+                    <h4 class="font-bold text-lg mb-4 lang-en">2. Financial Recovery & Optimization</h4>
+                    
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6 lang-pt active-lang">
+                        <li>• Recuperação de Impostos</li>
+                        <li>• Auditoria de Comissões Bancárias</li>
+                        <li>• Revisão de Custos Financeiros</li>
+                        <li>• Diagnóstico de Ineficiências</li>
+                    </ul>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6 lang-en">
+                        <li>• Tax Recovery Services</li>
+                        <li>• Bank Fee Audit</li>
+                        <li>• Financial Cost Review</li>
+                        <li>• Inefficiency Diagnostics</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100 italic text-xs text-brandBlue font-semibold">
+                        <span class="lang-pt active-lang">IMPACTO: Recuperação direta de liquidez.</span>
+                        <span class="lang-en">IMPACT: Immediate liquidity recovery.</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 border-t-4 border-brandBlue shadow-sm">
+                    <h4 class="font-bold text-lg mb-4 lang-pt active-lang">3. CFO Services & Gestão</h4>
+                    <h4 class="font-bold text-lg mb-4 lang-en">3. CFO Services & Management</h4>
+                    
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6 lang-pt active-lang">
+                        <li>• Contabilidade & Fiscalidade</li>
+                        <li>• Gestão de Tesouraria</li>
+                        <li>• ERP Cegid Primavera</li>
+                        <li>• Processamento Salarial</li>
+                    </ul>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6 lang-en">
+                        <li>• Accounting & Tax Compliance</li>
+                        <li>• Treasury Management</li>
+                        <li>• ERP Primavera Integration</li>
+                        <li>• Payroll Management</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100 italic text-xs text-brandBlue font-semibold">
+                        <span class="lang-pt active-lang">IMPACTO: Governação e controlo rigoroso.</span>
+                        <span class="lang-en">IMPACT: Stronger governance and control.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-3xl font-serif mb-12 lang-pt active-lang">Liderança Estratégica</h3>
+            <h3 class="text-3xl font-serif mb-12 lang-en">Strategic Leadership</h3>
+            
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <div class="group">
+                    <div class="w-full h-80 bg-gray-200 mb-6 grayscale hover:grayscale-0 transition duration-500 overflow-hidden">
+                        <div class="flex items-center justify-center h-full text-gray-400">Executive Photo</div>
+                    </div>
+                    <h5 class="font-bold text-xl uppercase tracking-tighter text-brandBlue">Hélder [Apelido]</h5>
+                    <p class="text-gray-500 text-sm italic">Managing Partner</p>
+                </div>
+                <div class="group">
+                    <div class="w-full h-80 bg-gray-200 mb-6 grayscale hover:grayscale-0 transition duration-500 overflow-hidden">
+                        <div class="flex items-center justify-center h-full text-gray-400">Executive Photo</div>
+                    </div>
+                    <h5 class="font-bold text-xl uppercase tracking-tighter text-brandBlue">Partner Name</h5>
+                    <p class="text-gray-500 text-sm italic">Director of Financial Strategy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-brandBlue text-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div>
+                <h3 class="text-4xl font-serif mb-6 lang-pt active-lang">Vamos fortalecer a sua estratégia financeira.</h3>
+                <h3 class="text-4xl font-serif mb-6 lang-en">Let’s strengthen your financial strategy.</h3>
+                
+                <p class="text-blue-100 mb-8 lang-pt active-lang">Entre em contacto com a nossa equipa para explorar como a Prime Partners pode apoiar o seu crescimento sustentável.</p>
+                <p class="text-blue-100 mb-8 lang-en">Get in touch with our team to explore how Prime Partners can support your sustainable growth.</p>
+                
+                <div class="space-y-4 font-light">
+                    <p><strong>Email:</strong> info@prime-partners.net</p>
+                    <p><strong>Phone:</strong> +258 86 3026749</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-sm shadow-xl text-gray-800">
+                <form action="mailto:info@prime-partners.net" method="post" enctype="text/plain" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-widest mb-1">Name / Nome</label>
+                        <input type="text" name="name" required class="w-full border-b border-gray-300 py-2 focus:border-brandBlue outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-widest mb-1">Company / Empresa</label>
+                        <input type="text" name="company" class="w-full border-b border-gray-300 py-2 focus:border-brandBlue outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-widest mb-1">Email</label>
+                        <input type="email" name="email" required class="w-full border-b border-gray-300 py-2 focus:border-brandBlue outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-widest mb-1">Message / Mensagem</label>
+                        <textarea name="message" rows="4" class="w-full border-b border-gray-300 py-2 focus:border-brandBlue outline-none"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-brandBlue text-white font-bold py-4 hover:bg-opacity-90 transition">
+                        <span class="lang-pt active-lang">ENVIAR MENSAGEM</span>
+                        <span class="lang-en">SEND MESSAGE</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white text-center border-t">
+        <div class="max-w-7xl mx-auto px-6">
+            <p class="text-xs text-gray-400 uppercase tracking-widest">&copy; 2026 Prime Partners Coorporate. All rights reserved.</p>
+            <p class="text-xs text-gray-400 mt-2 italic">Financial & Strategic Advisory</p>
+        </div>
+    </footer>
+
+    <script>
+        function setLanguage(lang) {
+            const ptElements = document.querySelectorAll('.lang-pt');
+            const enElements = document.querySelectorAll('.lang-en');
+
+            if (lang === 'pt') {
+                ptElements.forEach(el => el.classList.add('active-lang'));
+                enElements.forEach(el => el.classList.remove('active-lang'));
+                document.documentElement.lang = 'pt';
+            } else {
+                enElements.forEach(el => el.classList.add('active-lang'));
+                ptElements.forEach(el => el.classList.remove('active-lang'));
+                document.documentElement.lang = 'en';
+            }
+        }
+    </script>
+</body>
+</html>
