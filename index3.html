@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Partners | Financial & Strategic Advisory</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#002E5D', 
+                        brandGold: '#A68966', 
+                        lightGray: '#F9F9F9'
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        .service-card { border-top: 1px solid #e5e7eb; transition: all 0.4s ease; }
+        .service-card:hover { border-top: 1px solid #002E5D; background-color: #fff; }
+        .impact-tag { border-left: 3px solid #002E5D; }
+    </style>
+</head>
+<body class="bg-white text-gray-800 antialiased font-sans">
+
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-8 h-20 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="Prime Partners" class="h-10 w-auto">
+                <div class="hidden md:block">
+                    <span class="text-xl font-bold tracking-tighter text-brandBlue font-serif block">PRIME PARTNERS</span>
+                    <span class="text-[9px] tracking-[0.3em] text-gray-400 uppercase">Financial & Strategic Advisory</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex space-x-10 text-[11px] font-bold tracking-widest uppercase">
+                <a href="#services" class="hover:text-brandBlue transition">Services</a>
+                <a href="#about" class="hover:text-brandBlue transition">About</a>
+                <a href="#contact" class="hover:text-brandBlue transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-48 pb-24 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end border-b border-gray-200 pb-12 mb-16">
+                <div>
+                    <h1 class="text-5xl md:text-7xl font-serif text-brandBlue mb-4">Prime Partners</h1>
+                    <p class="text-sm tracking-[0.4em] font-light text-gray-400 uppercase leading-relaxed">Financial & Strategic Advisory</p>
+                </div>
+                <div class="mt-8 md:mt-0 text-left md:text-right text-[11px] leading-loose text-gray-500 uppercase tracking-widest font-medium">
+                    <p>Av. 24 de Julho, n° 42</p>
+                    <p>Maputo, Mozambique</p>
+                    <p class="font-bold text-brandBlue mt-2">+258 86 3026749</p>
+                    <p class="lowercase tracking-normal">info@prime-partners.net</p>
+                </div>
+            </div>
+
+            <div class="max-w-4xl">
+                <h2 class="text-5xl md:text-6xl font-serif text-brandBlue leading-[1.1] mb-10 italic">Financial Intelligence for Growth.</h2>
+                <p class="text-xl text-gray-500 font-light leading-relaxed max-w-2xl">
+                    We empower organizations by strengthening their financial function, providing access to capital, and strategic support for critical growth and sustainability decisions.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-24 bg-lightGray">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="mb-20">
+                <h3 class="text-[11px] font-bold tracking-[0.5em] text-brandBlue uppercase mb-4">Core Offering</h3>
+                <div class="h-px bg-brandBlue w-24"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+                
+                <div class="service-card pt-10">
+                    <span class="text-[10px] font-bold text-brandGold mb-6 block uppercase tracking-[0.2em]">01. Financing</span>
+                    <h4 class="text-2xl font-serif text-brandBlue mb-6">Capital & Financing Advisory</h4>
+                    <ul class="text-sm text-gray-600 space-y-3 mb-10 font-light min-h-[140px]">
+                        <li>• Debt Financing Structuring</li>
+                        <li>• Equity Capital Raising</li>
+                        <li>• Debt Restructuring</li>
+                        <li>• Investment Memorandums</li>
+                        <li>• Bank & Investor Negotiations</li>
+                    </ul>
+                    <div class="impact-tag p-4 bg-white shadow-sm">
+                        <p class="text-[10px] font-bold tracking-widest text-brandBlue uppercase">
+                            ✔ Impact: Capital access & financing cost reduction
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card pt-10">
+                    <span class="text-[10px] font-bold text-brandGold mb-6 block uppercase tracking-[0.2em]">02. Optimization</span>
+                    <h4 class="text-2xl font-serif text-brandBlue mb-6">Financial Recovery & Costs</h4>
+                    <ul class="text-sm text-gray-600 space-y-3 mb-10 font-light min-h-[140px]">
+                        <li>• Tax Recovery (Incorrect charges)</li>
+                        <li>• Bank Fees & Commissions Recovery</li>
+                        <li>• Financial Cost Technical Review</li>
+                        <li>• Bank Charges Auditing</li>
+                        <li>• Cost Structure Optimization</li>
+                    </ul>
+                    <div class="impact-tag p-4 bg-white shadow-sm">
+                        <p class="text-[10px] font-bold tracking-widest text-brandBlue uppercase">
+                            ✔ Impact: Immediate liquidity & margin improvement
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card pt-10">
+                    <span class="text-[10px] font-bold text-brandGold mb-6 block uppercase tracking-[0.2em]">03. Management</span>
+                    <h4 class="text-2xl font-serif text-brandBlue mb-6">CFO Services</h4>
+                    <ul class="text-sm text-gray-600 space-y-3 mb-10 font-light min-h-[140px]">
+                        <li>• Accounting & Tax Compliance</li>
+                        <li>• Treasury & Cash Flow Management</li>
+                        <li>• Payroll Processing</li>
+                        <li>• Working Capital Optimization</li>
+                        <li>• ERP Cegid Primavera Implementation</li>
+                    </ul>
+                    <div class="impact-tag p-4 bg-white shadow-sm">
+                        <p class="text-[10px] font-bold tracking-widest text-brandBlue uppercase">
+                            ✔ Impact: Reliable data & financial control
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card pt-10">
+                    <span class="text-[10px] font-bold text-brandGold mb-6 block uppercase tracking-[0.2em]">04. Performance</span>
+                    <h4 class="text-2xl font-serif text-brandBlue mb-6">Strategy & Performance</h4>
+                    <ul class="text-sm text-gray-600 space-y-3 mb-10 font-light min-h-[140px]">
+                        <li>• Corporate Budgeting</li>
+                        <li>• Advanced Financial Modelling</li>
+                        <li>• 13-Week Cash Flow Planning</li>
+                        <li>• Investment Appraisal</li>
+                        <li>• CAPEX Management</li>
+                    </ul>
+                    <div class="impact-tag p-4 bg-white shadow-sm">
+                        <p class="text-[10px] font-bold tracking-widest text-brandBlue uppercase">
+                            ✔ Impact: Sustainable growth & better decisions
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card pt-10">
+                    <span class="text-[10px] font-bold text-brandGold mb-6 block uppercase tracking-[0.2em]">05. Intelligence</span>
+                    <h4 class="text-2xl font-serif text-brandBlue mb-6">CFO Reporting Systems</h4>
+                    <ul class="text-sm text-gray-600 space-y-3 mb-10 font-light min-h-[140px]">
+                        <li>• Executive Dashboards & KPIs</li>
+                        <li>• P&L, Balance Sheet & Cash Flow Reports</li>
+                        <li>• Budget vs Actual Analysis</li>
+                        <li>• Aging Reports (AR/AP)</li>
+                        <li>• Executive Management Summaries</li>
+                    </ul>
+                    <div class="impact-tag p-4 bg-white shadow-sm">
+                        <p class="text-[10px] font-bold tracking-widest text-brandBlue uppercase">
+                            ✔ Impact: Professional reporting & data-driven culture
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card pt-10">
+                    <span class="text-[10px] font-bold text-brandGold mb-6 block uppercase tracking-[0.2em]">06. Capability</span>
+                    <h4 class="text-2xl font-serif text-brandBlue mb-6">Training & Capacity</h4>
+                    <ul class="text-sm text-gray-600 space-y-3 mb-10 font-light min-h-[140px]">
+                        <li>• Financial Management for Executives</li>
+                        <li>• ERP Primavera Technical Training</li>
+                        <li>• Internal Control Systems</li>
+                        <li>• ISO 9001 | 14001 | 45001 Standards</li>
+                        <li>• Integrated Management Systems</li>
+                    </ul>
+                    <div class="impact-tag p-4 bg-white shadow-sm">
+                        <p class="text-[10px] font-bold tracking-widest text-brandBlue uppercase">
+                            ✔ Impact: High-performance teams & efficient processes
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-2 gap-20">
+            <div>
+                <h3 class="text-4xl font-serif text-brandBlue mb-8">Ready to strengthen your strategy?</h3>
+                <p class="text-gray-500 font-light mb-12">Contact our office in Maputo to schedule a detailed presentation meeting.</p>
+                <div class="text-sm font-bold text-brandBlue tracking-widest uppercase">
+                    <p>info@prime-partners.net</p>
+                    <p class="mt-2">+258 86 3026749</p>
+                </div>
+            </div>
+            
+            <form action="mailto:info@prime-partners.net" method="POST" enctype="text/plain" class="space-y-8">
+                <input type="text" name="name" placeholder="FULL NAME" class="w-full border-b border-gray-300 py-4 outline-none focus:border-brandBlue transition text-[10px] font-bold tracking-[0.2em]" required>
+                <input type="email" name="email" placeholder="CORPORATE EMAIL" class="w-full border-b border-gray-300 py-4 outline-none focus:border-brandBlue transition text-[10px] font-bold tracking-[0.2em]" required>
+                <textarea name="message" placeholder="HOW CAN WE ASSIST?" rows="3" class="w-full border-b border-gray-300 py-4 outline-none focus:border-brandBlue transition text-[10px] font-bold tracking-[0.2em]"></textarea>
+                <button type="submit" class="bg-brandBlue text-white px-12 py-5 text-[10px] font-bold tracking-[0.3em] uppercase hover:bg-black transition w-full md:w-auto">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white border-t border-gray-50 text-center">
+        <p class="text-[9px] text-gray-400 tracking-[0.4em] uppercase font-semibold">© 2026 Prime Partners Coorporate. All Rights Reserved. Maputo, Mozambique.</p>
+    </footer>
+
+</body>
+</html>
